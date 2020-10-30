@@ -1,0 +1,10 @@
+.blogBody{
+    text-align: center;
+}
+.blog {
+        background-image: url(./images/bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 1000px;
+        background-attachment: fixed
+    }

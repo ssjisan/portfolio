@@ -1,0 +1,8 @@
+.contact{
+    background-image: url(./image/bg.png);
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
