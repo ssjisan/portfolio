@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="contact">
             <div className="container">            
 {/************************** Navbar Menu Start********************************************************/}
-<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light">
 {/************************** Hamburger Menu Start********************************************************/}
                 <button class="navbar-toggler btn btn-warning" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span> 
