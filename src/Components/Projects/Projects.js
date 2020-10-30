@@ -1,5 +1,6 @@
 import React from 'react';
 import './Projects.css'
+import resume from '../Home/Home/resume.pdf';
 import ca from './image/carousel/ca.jpg';
 import va from './image/carousel/vn.jpg';
 import wf from './image/carousel/wf.jpg';
@@ -67,8 +68,8 @@ const Projects = () => {
                         <li class="nav-item">
                             <Link class="nav-link" to="/contact">Contact</Link>
                         </li>
-                        <li class="nav-item">
-                            <a href="https://drive.google.com/file/d/1xNGFUy8f4Uk6Mi3P065_is2CZzV2fwWW/view?usp=sharing"><button class="btn btn-info" href="">My Resume</button></a>
+                        <li className="nav-item">
+                            <a href={resume} download="sadman_sakib"><button class="btn btn-info" >My Resume</button></a>
                         </li>
                     </ul>
                 </div>
@@ -88,8 +89,8 @@ const Projects = () => {
                             </Typography>
                         </CardContent>
                     <CardActions disableSpacing>
-                        <Button variant="contained" color="primary" style={{marginRight:20}}>Website</Button>
-                        <Button variant="contained" color="primary" style={{marginRight:20}}> Github </Button>
+                        <a href="https://creative-agency-client-site.web.app/"><Button variant="contained" color="primary" style={{marginRight:20}}>Website</Button></a>
+                        <a href="https://github.com/ssjisan/creative-agency"><Button variant="contained" color="primary" style={{marginRight:20}}> Github </Button></a>
                         <Button variant="contained" style={{backgroundColor:'red', marginLeft:20}}  type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCreativeAgency"> More </Button>
                             <div class="modal fade" id="exampleModalCreativeAgency" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered" role="document">
@@ -109,7 +110,7 @@ const Projects = () => {
                                     <br/>
                                     <h5 style={{color: 'red'}}>For more details please visit my github repository</h5>
                                     <br/>
-                                    <Button variant="contained" color="secondary" style={{marginRight:20}}> Github </Button>
+                                    <a href="https://github.com/ssjisan/creative-agency"><Button variant="contained" color="secondary" style={{marginRight:20}}> Github </Button></a>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -129,12 +130,11 @@ const Projects = () => {
                     <CardMedia className={classes.media}image={va}/>
                         <CardContent>
                             <Typography variant="body2" color="textSecondary" component="p">
-                            I developed this test app for a Developer firm. They are working with creating a website, mobile app, graphics design related staffs like posters, visiting card, flyers.
-                            </Typography>
+                                This full-stack site is developed for an organization that wants to do this volunteer works. A user can participate in any Voluntarily event.                            </Typography>
                         </CardContent>
                     <CardActions disableSpacing>
-                        <Button variant="contained" color="primary" style={{marginRight:20}}>Website</Button>
-                        <Button variant="contained" color="primary" style={{marginRight:20}}> Github </Button>
+                        <a href="https://volunteer-network-site-6aa3d.web.app/"><Button variant="contained" color="primary" style={{marginRight:20}}>Website</Button></a>
+                        <a href="https://github.com/ssjisan/volunteer-netwrok-site"><Button variant="contained" color="primary" style={{marginRight:20}}>Github</Button></a>
                         <Button variant="contained" style={{backgroundColor:'red', marginLeft:20}}  type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalVolunteerNetwrok"> More </Button>
                             <div class="modal fade" id="exampleModalVolunteerNetwrok" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered" role="document">
@@ -154,7 +154,7 @@ const Projects = () => {
                                     <br/>
                                     <h5 style={{color: 'red'}}>For more details please visit my github repository</h5>
                                     <br/>
-                                    <Button variant="contained" color="secondary" style={{marginRight:20}}> Github </Button>
+                                    <a href="https://github.com/ssjisan/volunteer-netwrok-site"><Button variant="contained" color="secondary" style={{marginRight:20}}>Github</Button></a>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -174,13 +174,13 @@ const Projects = () => {
                     <CardMedia className={classes.media}image={wf}/>
                         <CardContent>
                             <Typography variant="body2" color="textSecondary" component="p">
-                            I developed this test app for a Developer firm. They are working with creating a website, mobile app, graphics design related staffs like posters, visiting card, flyers.
+                            A simple weather forecast website for searching weather updates based on city name.Showing results with temperature and weather status.
                             </Typography>
                         </CardContent>
                     <CardActions disableSpacing>
-                        <Button variant="contained" color="primary" style={{marginRight:20}}>Website</Button>
-                        <Button variant="contained" color="primary" style={{marginRight:20}}> Github </Button>
-                        <Button variant="contained" style={{backgroundColor:'red', marginLeft:20}}  type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalWeatherApp"> More </Button>
+                            <a href="https://ssjisan.github.io/weather-app/"><Button variant="contained" color="primary" style={{marginRight:20}}>Website</Button></a>
+                            <a href="https://github.com/ssjisan/weather-app"><Button variant="contained" color="primary" style={{marginRight:20}}>Github</Button></a>
+                            <Button variant="contained" style={{backgroundColor:'red', marginLeft:20}}  type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalWeatherApp"> More </Button>
                             <div class="modal fade" id="exampleModalWeatherApp" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered" role="document">
                                     <div class="modal-content">
@@ -199,7 +199,7 @@ const Projects = () => {
                                     <br/>
                                     <h5 style={{color: 'red'}}>For more details please visit my github repository</h5>
                                     <br/>
-                                    <Button variant="contained" color="secondary" style={{marginRight:20}}> Github </Button>
+                                    <a href="https://github.com/ssjisan/weather-app"><Button variant="contained" color="secondary" style={{marginRight:20}}>Github</Button></a>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

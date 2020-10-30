@@ -4,3 +4,11 @@
     padding-left:50px;
     padding-right: 50px;
 }
+.icon{
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+.social a{
+    margin: 20px;
+}

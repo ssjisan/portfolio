@@ -27,16 +27,18 @@ const HeaderContent = () => {
                         <h5>Hello, My name is </h5>
                         <h1>Md. Sadman Sakib Jisan</h1>
                         <h5>I am a <span style={{color:"red"}}>{result}</span></h5> 
-                        <h5>Find me in</h5>
-                        <div >
-                            <a href="https://www.facebook.com/userjisan/" target="_blank" rel="noreferrer"><button className="btn" style={{marignLeft:10, fontSize:30, color:"#3b5998"}}><FontAwesomeIcon icon={faFacebookF} /></button></a> 
-                            <a href="https://medium.com/@sakibfset13" target="_blank" rel="noreferrer"><button className="btn" style={{marignLeft:10, fontSize:30}}><FontAwesomeIcon icon={faMediumM} /></button></a>
-                            <a href="https://www.linkedin.com/in/ssjisan/" target="_blank" rel="noreferrer"><button className="btn" style={{marignLeft:10, fontSize:30, color:'#0e76a8 '}}><FontAwesomeIcon icon={faLinkedinIn} /></button></a>
-                            <a href="https://github.com/ssjisan" target="_blank" rel="noreferrer"><button className="btn" style={{marignLeft:10, fontSize:30}}><FontAwesomeIcon icon={faGithub} /></button></a>
-                        </div>
                 </div> 
                 <div class="col-md-6">
                     <img src={image} class="d-block w-100"  alt=""/>
+                </div>
+                <div className="icon">
+                        <h2 style={{color:'red'}}>Find me in</h2>
+                        <div className="social col-md-12">
+                            <a href="https://www.facebook.com/userjisan/" target="_blank" rel="noreferrer" className="icon" style={{fontSize:40, color:"white"}}><FontAwesomeIcon icon={faFacebookF} /></a> 
+                            <a href="https://medium.com/@sakibfset13" target="_blank" rel="noreferrer" style={{ fontSize:40, color:"white"}}><FontAwesomeIcon icon={faMediumM} /></a>
+                            <a href="https://www.linkedin.com/in/ssjisan/" target="_blank" rel="noreferrer" style={{ fontSize:40, color:"white"}}><FontAwesomeIcon icon={faLinkedinIn} /></a>
+                            <a href="https://github.com/ssjisan" target="_blank" rel="noreferrer" style={{ fontSize:40,color:"white"}}><FontAwesomeIcon icon={faGithub} /></a>
+                        </div>
                 </div>
             </div>
         </div>
