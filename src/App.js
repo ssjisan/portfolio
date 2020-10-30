@@ -11,6 +11,7 @@ import Projects from './Components/Projects/Projects';
 import Blog from './Components/Blog/Blog';
 import Home from './Components/Home/Home/Home';
 import Contact from './Components/Contact/Contact';
+import Myself from './Components/Myself/Myself';
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
         </Route>
         <Route path="/blog">
           <Blog></Blog>
+        </Route>
+        <Route path="/myself">
+          <Myself></Myself>
         </Route>
         <Route>
           <Home></Home>

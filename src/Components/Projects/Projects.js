@@ -6,18 +6,14 @@ import wf from './image/carousel/wf.jpg';
 import {Link} from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
-import clsx from 'clsx';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
-import Collapse from '@material-ui/core/Collapse';
 import Avatar from '@material-ui/core/Avatar';
-import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import { red } from '@material-ui/core/colors';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 const useStyles = makeStyles((theme) => ({
     root: {
       maxWidth: 345,
@@ -44,11 +40,6 @@ const useStyles = makeStyles((theme) => ({
 
 const Projects = () => {
     const classes = useStyles();
-    const [expanded, setExpanded] = React.useState(false);
-    const handleExpand = () => {
-    setExpanded(!expanded);
-  };
-  
     return (
         <div>
 {/************************** Navbar Menu Start********************************************************/}
@@ -98,20 +89,35 @@ const Projects = () => {
                         </CardContent>
                     <CardActions disableSpacing>
                         <Button variant="contained" color="primary" style={{marginRight:20}}>Website</Button>
-                        <Button variant="contained" color="primary"> Github </Button>
-                        <IconButton className={clsx(classes.expand, {[classes.expandOpen]: expanded,})}name="firstCard" onClick={handleExpand}
-                        aria-expanded={expanded}
-                        aria-label="show more"> <ExpandMoreIcon /> </IconButton> 
+                        <Button variant="contained" color="primary" style={{marginRight:20}}> Github </Button>
+                        <Button variant="contained" style={{backgroundColor:'red', marginLeft:20}}  type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCreativeAgency"> More </Button>
+                            <div class="modal fade" id="exampleModalCreativeAgency" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">Techonologies I used</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h5>Frontend</h5>
+                                    <p>React.js,React Router,HTML5,Bootstrap4,CSS3</p>
+                                    <br/>
+                                    <h5>Back-end Technology</h5>
+                                    <p>Node.js, Express.js, Firebase Authentication, MongoDB, Heroku</p>
+                                    <br/>
+                                    <h5 style={{color: 'red'}}>For more details please visit my github repository</h5>
+                                    <br/>
+                                    <Button variant="contained" color="secondary" style={{marginRight:20}}> Github </Button>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
                     </CardActions>
-                        <Collapse in={expanded} timeout="auto" unmountOnExit>
-                    <CardContent>
-                        <Typography paragraph>Details</Typography>
-                        <Typography paragraph>
-                                User can place their orders, review developers. Admin can see the order list, They can add new services. 
-                                Technologies i used React.js, React Router, HTML5, Bootstrap4, CSS3, Firebase, NodeJS, MongoDB.
-                        </Typography>
-                    </CardContent>
-                        </Collapse>
                 </Card>
             </div>
 {/*********First Card End***********/}
@@ -128,20 +134,35 @@ const Projects = () => {
                         </CardContent>
                     <CardActions disableSpacing>
                         <Button variant="contained" color="primary" style={{marginRight:20}}>Website</Button>
-                        <Button variant="contained" color="primary"> Github </Button>
-                        <IconButton className={clsx(classes.expand, {[classes.expandOpen]: expanded,})}onClick=""
-                        aria-expanded={expanded}
-                        aria-label="show more"> <ExpandMoreIcon /> </IconButton> 
+                        <Button variant="contained" color="primary" style={{marginRight:20}}> Github </Button>
+                        <Button variant="contained" style={{backgroundColor:'red', marginLeft:20}}  type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalVolunteerNetwrok"> More </Button>
+                            <div class="modal fade" id="exampleModalVolunteerNetwrok" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">Techonologies I used</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body" id="ca">
+                                    <h5>Frontend</h5>
+                                    <p>React.js,React Router,HTML5,Bootstrap4,CSS3</p>
+                                    <br/>
+                                    <h5>Back-end Technology</h5>
+                                    <p>Node.js, Express.js, Firebase Authentication, MongoDB, Heroku</p>
+                                    <br/>
+                                    <h5 style={{color: 'red'}}>For more details please visit my github repository</h5>
+                                    <br/>
+                                    <Button variant="contained" color="secondary" style={{marginRight:20}}> Github </Button>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
                     </CardActions>
-                        <Collapse in={expanded} timeout="auto" unmountOnExit>
-                    <CardContent>
-                        <Typography paragraph>Details</Typography>
-                        <Typography paragraph>
-                                User can place their orders, review developers. Admin can see the order list, They can add new services. 
-                                Technologies i used React.js, React Router, HTML5, Bootstrap4, CSS3, Firebase, NodeJS, MongoDB.
-                        </Typography>
-                    </CardContent>
-                        </Collapse>
                 </Card>
             </div>
 {/*********Second Card End***********/}
@@ -158,20 +179,35 @@ const Projects = () => {
                         </CardContent>
                     <CardActions disableSpacing>
                         <Button variant="contained" color="primary" style={{marginRight:20}}>Website</Button>
-                        <Button variant="contained" color="primary"> Github </Button>
-                        <IconButton className={clsx(classes.expand, {[classes.expandOpen]: expanded,})}onClick={handleExpand}
-                        aria-expanded={expanded}
-                        aria-label="show more"> <ExpandMoreIcon /> </IconButton> 
+                        <Button variant="contained" color="primary" style={{marginRight:20}}> Github </Button>
+                        <Button variant="contained" style={{backgroundColor:'red', marginLeft:20}}  type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalWeatherApp"> More </Button>
+                            <div class="modal fade" id="exampleModalWeatherApp" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">Techonologies I used</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h5>Frontend</h5>
+                                    <p>HTML5, CSS3, Bootstrap4</p>
+                                    <br/>
+                                    <h5>Back-end Technology</h5>
+                                    <p>Weather API from "www.openweathermap.org"</p>
+                                    <br/>
+                                    <h5 style={{color: 'red'}}>For more details please visit my github repository</h5>
+                                    <br/>
+                                    <Button variant="contained" color="secondary" style={{marginRight:20}}> Github </Button>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
                     </CardActions>
-                        <Collapse in={expanded} timeout="auto" unmountOnExit>
-                    <CardContent>
-                        <Typography paragraph>Details</Typography>
-                        <Typography paragraph>
-                                User can place their orders, review developers. Admin can see the order list, They can add new services. 
-                                Technologies i used React.js, React Router, HTML5, Bootstrap4, CSS3, Firebase, NodeJS, MongoDB.
-                        </Typography>
-                    </CardContent>
-                        </Collapse>
                 </Card>
             </div>
 {/*********Third Card End***********/}
