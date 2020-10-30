@@ -10,10 +10,7 @@ const About = () => {
                         <img src={image} class="d-block w-100"  alt=""/>
                     </div>
                     <div class="col-md-6">
-                        <h5>Hello, My name is </h5>
-                        <h1>Md. Sadman Sakib Jisan</h1>
-                        <h5>I am a <span style={{color:"red"}}>{}</span></h5> 
-                        <h5>Find me in</h5>
+                        <h5>Never Ever trust me</h5>
                     </div> 
                 </div>
             </div>
