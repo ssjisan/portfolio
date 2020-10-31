@@ -1,4 +1,6 @@
 import React from 'react';
+import {Link} from "react-router-dom";
+import "./Project.css"
 import ca from '../../Projects/image/carousel/ca.jpg';
 import va from '../../Projects/image/carousel/vn.jpg'
 import wf from '../../Projects/image/carousel/wf.jpg'
@@ -71,6 +73,9 @@ const Project = () => {
                 </div>
 
 {/* Carousel Wrapper */}
+            </div>
+            <div class="button">
+                <Link to="/projects"><button class="btn btn-primary">Show All My Projects</button></Link>
             </div>
         </div>
     );
