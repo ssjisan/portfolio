@@ -1,0 +1,11 @@
+.myself{
+    background-image: url(./images/bg.jpg);
+    background-attachment: fixed;
+    min-height: 400px;
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
