@@ -4,6 +4,7 @@ import react from './images/react.gif'
 import reactRouter from './images/reactRouter.png'
 import type from './images/type.gif'
 import fontawsome from './images/fa.png'
+import js from './images/js.jpg'
 import {Link} from "react-router-dom";
 import './Blog.css'
 const Blog = () => {
@@ -112,11 +113,11 @@ const Blog = () => {
 
 {/*********Third Card Start***********/}
             <div class="card" style={{width: "18rem"}}>
-                <img src={encrpt} class="card-img-top" alt="..."/>
+                <img src={js} class="card-img-top" alt="..."/>
                 <div class="card-body">
-                    <h5 class="card-title">use-dencrypt-effect</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="https://medium.com/@sakibfset13" class="btn btn-primary">Read Full Article</a>
+                    <h5 class="card-title">Let's Start a Journey With JavaScript</h5>
+                    <p class="card-text">A simple overview about JavaScript.</p>
+                    <a href="https://sakibfset13.medium.com/lets-start-a-journey-with-javascript-ca4485adf2e3" class="btn btn-primary">Read Full Article</a>
                 </div>
             </div>
 {/*********Third Card End***********/}
