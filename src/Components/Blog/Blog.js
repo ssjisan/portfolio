@@ -52,33 +52,34 @@ const Blog = () => {
         <div class="card-deck">
 {/*********First Card Start***********/}
             <div class="card" style={{width: "18rem"}}>
+                <img src={js} class="card-img-top" alt="..."/>
+                <div class="card-body">
+                    <h5 class="card-title">Let's Start a Journey With JavaScript.</h5>
+                    <p class="card-text">A simple overview about JavaScript.  Some basic concepts about JavaScript and others. </p>
+                    <a href="https://sakibfset13.medium.com/lets-start-a-journey-with-javascript-ca4485adf2e3" class="btn btn-primary" target="_blank" rel="noreferrer">Read Full Article</a>
+                </div>
+            </div>
+            
+{/*********First Card End***********/}
+
+{/*********Second Card Start***********/}
+        <div class="card" style={{width: "18rem"}}>
                 <img src={react} class="card-img-top" alt="..."/>
                 <div class="card-body">
                     <h5 class="card-title">Start With React</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="https://medium.com/@sakibfset13" class="btn btn-primary">Read Full Article</a>
-                </div>
-            </div>
-{/*********First Card End***********/}
-
-{/*********Second Card Start***********/}
-            <div class="card" style={{width: "18rem"}}>
-                <img src={reactRouter} class="card-img-top" alt="..."/>
-                <div class="card-body">
-                    <h5 class="card-title">React Router Features</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="https://medium.com/@sakibfset13" class="btn btn-primary">Read Full Article</a>
+                    <a href="https://medium.com/@sakibfset13" class="btn btn-primary" target="_blank" rel="noreferrer">Read Full Article</a>
                 </div>
             </div>
 {/*********Second Card End***********/}
 
 {/*********Third Card Start***********/}
             <div class="card" style={{width: "18rem"}}>
-                <img src={fontawsome} class="card-img-top" alt="..."/>
+                <img src={reactRouter} class="card-img-top" alt="..."/>
                 <div class="card-body">
-                    <h5 class="card-title">Using Fontawsome in React</h5>
+                    <h5 class="card-title">React Router Features</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="https://medium.com/@sakibfset13" class="btn btn-primary">Read Full Article</a>
+                    <a href="https://medium.com/@sakibfset13" class="btn btn-primary" target="_blank" rel="noreferrer">Read Full Article</a>
                 </div>
             </div>
 {/*********Third Card End***********/}
@@ -95,7 +96,7 @@ const Blog = () => {
                 <div class="card-body">
                     <h5 class="card-title">React-typical</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="https://medium.com/@sakibfset13" class="btn btn-primary">Read Full Article</a>
+                    <a href="https://medium.com/@sakibfset13" class="btn btn-primary" target="_blank" rel="noreferrer">Read Full Article</a>
                 </div>
             </div>
 {/*********First Card End***********/}
@@ -106,18 +107,18 @@ const Blog = () => {
                 <div class="card-body">
                     <h5 class="card-title">use-dencrypt-effect</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="https://medium.com/@sakibfset13" class="btn btn-primary">Read Full Article</a>
+                    <a href="https://medium.com/@sakibfset13" class="btn btn-primary" target="_blank" rel="noreferrer">Read Full Article</a>
                 </div>
             </div>
 {/*********Second Card End***********/}
 
 {/*********Third Card Start***********/}
             <div class="card" style={{width: "18rem"}}>
-                <img src={js} class="card-img-top" alt="..."/>
+                <img src={fontawsome} class="card-img-top" alt="..."/>
                 <div class="card-body">
-                    <h5 class="card-title">Let's Start a Journey With JavaScript</h5>
-                    <p class="card-text">A simple overview about JavaScript.</p>
-                    <a href="https://sakibfset13.medium.com/lets-start-a-journey-with-javascript-ca4485adf2e3" class="btn btn-primary">Read Full Article</a>
+                    <h5 class="card-title">Using Fontawsome in React</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://medium.com/@sakibfset13" class="btn btn-primary" target="_blank" rel="noreferrer">Read Full Article</a>
                 </div>
             </div>
 {/*********Third Card End***********/}
