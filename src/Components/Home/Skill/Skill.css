@@ -41,7 +41,7 @@
     }
   }
   .dev-icons {
-    font-size: 5rem;
+    font-size: 3.5rem;
     text-align: center;
   }
   .list-inline {
@@ -51,6 +51,7 @@
   
   .list-inline-item {
     display: inline-block;
+    padding: 20px;
   }
   .list-inline-item:not(:last-child) {
     margin-right: 0.5rem;
