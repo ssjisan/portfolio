@@ -16,7 +16,7 @@ const About = () => {
                     </div>
                     <div class="col-md-6" data-aos="zoom-in-down">
                         <h1 style={{textAlign:"center"}}>About <span style={{color:"#C7EA46"}}>Myself</span> </h1>
-                        <p style={{fontSize:30}}> Observe, Learn and Improve. Trying to learn new thing everyday. </p>
+                        <p style={{fontSize:30}}> Okay Observe, Learn and Improve. Trying to learn new thing everyday. </p>
                     </div> 
                 </div>
             </div>
