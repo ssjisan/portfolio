@@ -1,12 +1,12 @@
 body {
   margin: 0;
-  font-family: 'Syne Tactile', cursive;
+  font-family:  cursive;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Syne Tactile',
+  font-family: source-code-pro, Menlo, Monaco, Consolas,
   cursive;
 }
