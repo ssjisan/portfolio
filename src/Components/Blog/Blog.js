@@ -1,7 +1,6 @@
 import React from 'react';
 import encrpt from './images/encrpt.gif'
 import react from './images/react.png'
-import reactRouter from './images/reactRouter.png'
 import type from './images/type.gif'
 import fontawsome from './images/fa.png'
 import js from './images/js.jpg'
