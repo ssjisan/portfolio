@@ -1,8 +1,8 @@
 import React from 'react';
-import encrpt from './images/encrpt.gif'
+// import encrpt from './images/encrpt.gif'
 import react from './images/react.png'
-import type from './images/type.gif'
-import fontawsome from './images/fa.png'
+// import type from './images/type.gif'
+// import fontawsome from './images/fa.png'
 import js from './images/js.jpg'
 import jsps from './images/js-ps.png'
 import {Link} from "react-router-dom";
@@ -91,39 +91,40 @@ const Blog = () => {
 {/*******************************************************Second Blog Card Start *************************************************/}
         <div class="card-deck">
 {/*********First Card Start***********/}
-            <div class="card" style={{width: "18rem"}}>
+            {/* <div class="card" style={{width: "18rem"}}>
                 <img src={type} class="card-img-top" alt="..."/>
                 <div class="card-body">
                     <h5 class="card-title">React-typical</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="https://medium.com/@sakibfset13" class="btn btn-primary" target="_blank" rel="noreferrer">Read Full Article</a>
                 </div>
-            </div>
+            </div> */}
 {/*********First Card End***********/}
 
 {/*********Second Card Start***********/}
-            <div class="card" style={{width: "18rem"}}>
+            {/* <div class="card" style={{width: "18rem"}}>
                 <img src={encrpt} class="card-img-top" alt="..."/>
                 <div class="card-body">
                     <h5 class="card-title">use-dencrypt-effect</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="https://medium.com/@sakibfset13" class="btn btn-primary" target="_blank" rel="noreferrer">Read Full Article</a>
                 </div>
-            </div>
+            </div> */}
 {/*********Second Card End***********/}
 
 {/*********Third Card Start***********/}
-            <div class="card" style={{width: "18rem"}}>
+            {/* <div class="card" style={{width: "18rem"}}>
                 <img src={fontawsome} class="card-img-top" alt="..."/>
                 <div class="card-body">
                     <h5 class="card-title">Using Fontawsome in React</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="https://medium.com/@sakibfset13" class="btn btn-primary" target="_blank" rel="noreferrer">Read Full Article</a>
                 </div>
-            </div>
+            </div> */}
 {/*********Third Card End***********/}
             </div>
-        </div>
+{/*******************************************************Second Blog Card Start *************************************************/}
+         </div>
         </div>
     );
 };
