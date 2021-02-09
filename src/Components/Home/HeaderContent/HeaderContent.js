@@ -31,15 +31,15 @@ const HeaderContent = () => {
                 <div class="col-md-6">
                     <img src={image} class="d-block w-100"  alt=""/>
                 </div>
-                <div className="icon">
+                {/* <div className="icon">
                         <h2 style={{color:'red'}}>Find me in</h2>
                         <div className="social col-md-12">
-                            <a href="https://www.facebook.com/userjisan/" target="_blank" rel="noreferrer" className="icon" style={{fontSize:40, color:"white"}}><FontAwesomeIcon icon={faFacebookF} /></a> 
-                            <a href="https://medium.com/@sakibfset13" target="_blank" rel="noreferrer" style={{ fontSize:40, color:"white"}}><FontAwesomeIcon icon={faMediumM} /></a>
-                            <a href="https://www.linkedin.com/in/ssjisan/" target="_blank" rel="noreferrer" style={{ fontSize:40, color:"white"}}><FontAwesomeIcon icon={faLinkedinIn} /></a>
-                            <a href="https://github.com/ssjisan" target="_blank" rel="noreferrer" style={{ fontSize:40,color:"white"}}><FontAwesomeIcon icon={faGithub} /></a>
+                            <a href="https://www.facebook.com/userjisan/" target="_blank" rel="noreferrer" className="icon" ><FontAwesomeIcon icon={faFacebookF} /></a> 
+                            <a href="https://medium.com/@sakibfset13" target="_blank" rel="noreferrer" ><FontAwesomeIcon icon={faMediumM} /></a>
+                            <a href="https://www.linkedin.com/in/ssjisan/" target="_blank" rel="noreferrer" ><FontAwesomeIcon icon={faLinkedinIn} /></a>
+                            <a href="https://github.com/ssjisan" target="_blank" rel="noreferrer" ><FontAwesomeIcon icon={faGithub} /></a>
                         </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );
