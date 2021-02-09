@@ -1,17 +1,18 @@
 import React from 'react';
 import encrpt from './images/encrpt.gif'
-import react from './images/react.gif'
+import react from './images/react.png'
 import reactRouter from './images/reactRouter.png'
 import type from './images/type.gif'
 import fontawsome from './images/fa.png'
 import js from './images/js.jpg'
+import jsps from './images/js-ps.png'
 import {Link} from "react-router-dom";
 import './Blog.css'
 const Blog = () => {
     return (
         <div className="blog">
 {/******************************************************Nav bar Start***********************************/}
-            <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-light">
 {/************************** Hamburger Menu Start********************************************************/}
             <button class="navbar-toggler btn btn-warning" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span> 
@@ -68,18 +69,18 @@ const Blog = () => {
                 <div class="card-body">
                     <h5 class="card-title">Start With React</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="https://medium.com/@sakibfset13" class="btn btn-primary" target="_blank" rel="noreferrer">Read Full Article</a>
+                    <a href="https://sakibfset13.medium.com/hello-react-59b4dd2d46ff" class="btn btn-primary" target="_blank" rel="noreferrer">Read Full Article</a>
                 </div>
             </div>
 {/*********Second Card End***********/}
 
 {/*********Third Card Start***********/}
             <div class="card" style={{width: "18rem"}}>
-                <img src={reactRouter} class="card-img-top" alt="..."/>
+                <img src={jsps} class="card-img-top" alt="..."/>
                 <div class="card-body">
-                    <h5 class="card-title">React Router Features</h5>
+                    <h5 class="card-title">Simple Problem: Solution with JavaScript</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="https://medium.com/@sakibfset13" class="btn btn-primary" target="_blank" rel="noreferrer">Read Full Article</a>
+                    <a href="https://sakibfset13.medium.com/simple-problem-solution-with-javascript-de78478b54c9" class="btn btn-primary" target="_blank" rel="noreferrer">Read Full Article</a>
                 </div>
             </div>
 {/*********Third Card End***********/}
